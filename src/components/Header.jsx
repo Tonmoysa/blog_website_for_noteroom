@@ -14,13 +14,13 @@ const Header = () => {
   }
   return (
     <nav>
-       <div className='container nav-container'>
+       <div className='nav-container'>
             <Link className='nav-logo' to={'/'} onClick={closeNavHandler}>
-              <h3>Blog S<span>tac</span>K</h3>
+            <img className='logo' src="https://www.noteroom.co/assets/apple-touch-icon.png" alt="" />
             </Link>
 
           {isNavShow &&  <ul className='nav-menu'>
-              <li><Link to={'/profile/id'} onClick={closeNavHandler}>Beg Joker</Link></li>
+              <li><Link to={'/profile/id'} onClick={closeNavHandler}>Home</Link></li>
               <li><Link to={'/create'}onClick={closeNavHandler}>Create Posts</Link></li>
               <li><Link to={'/author'}onClick={closeNavHandler}>Author</Link></li>
               <li><Link to={'/logout'}onClick={closeNavHandler}>Logout</Link></li>

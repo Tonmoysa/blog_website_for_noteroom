@@ -5,7 +5,23 @@ export const HeadPost =[
         id: 1,
         Image: blogImage1,
         category: 'Education',
+        authorId: 1,
+        title: 'This is the title for Robot lorem ipsum ',
+        des: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,'
+    },
+    {
+        id: 2,
+        Image: blogImage1,
+        category: 'Education',
         authorId: 2,
+        title: 'This is the title for Robot lorem ipsum ',
+        des: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,'
+    },
+    {
+        id: 3,
+        Image: blogImage1,
+        category: 'Education',
+        authorId: 3,
         title: 'This is the title for Robot lorem ipsum ',
         des: 'Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,'
     },
