@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { DummyPosts } from '../data/data'
 import PostItem from './PostItem'
-import Headpost from './HeadPost'
+import Headpost from './Headpost'
 
 
 const Posts = () => {
